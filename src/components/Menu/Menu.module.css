@@ -1,0 +1,27 @@
+.Menu {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, #49b2bb, #033597);
+
+  font-size: 12px;
+  text-transform: uppercase;
+
+  width: 128px;
+  min-width: 128px;
+  height: 100%;
+}
+
+.Menu > div.Vendor {
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.Menu > div.Vendor > i {
+  font-size: 48px;
+  padding: 0px 0px 8px 0px;
+}
