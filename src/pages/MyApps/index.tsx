@@ -1,5 +1,7 @@
 import React from 'react'
+
 import { Pane } from '../../components/Pane'
+import { Overview } from './components/Overview'
 
 
 const mockData = [
@@ -10,6 +12,7 @@ const mockData = [
 
 export const MyApps = () => (
   <div>
+    <Overview />
     <Pane>
       <h2>MyApps</h2>
     </Pane>
