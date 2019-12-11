@@ -1,15 +1,14 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
-import { Menu } from './components/Menu/Menu';
-import { Nav } from './components/Menu/Nav';
-import { Content } from './components/Content/Content';
+import { Menu, Nav } from './components/Menu';
+import { Content } from './components/Content';
+import { MyApps } from './pages/MyApps'
+import { Reports } from './pages/Reports';
+import { Docs } from './pages/Docs';
+import { Download } from './pages/Download';
+import { MyProfile } from './pages/MyProfile';
 
-const MyApps = () => { return <h2>MyApps</h2> }
-const Reports = () => { return <h2>Reports</h2> }
-const Docs = () => { return <h2>Docs</h2> }
-const Download = () => { return <h2>Download</h2> }
-const MyProfile = () => { return <h2>MyProfile</h2> }
 
 export const Routes: React.FC = () => (
   <Router>
@@ -23,13 +22,11 @@ export const Routes: React.FC = () => (
     </Menu>
 
     <Content>
-      <Switch>
-        <Route path='/my_apps'><MyApps /></Route>
-        <Route path='/reports'><Reports /></Route>
-        <Route path='/docs'><Docs /></Route>
-        <Route path='/download'><Download /></Route>
-        <Route path='/my_profile'><MyProfile /></Route>
-      </Switch>
+      <Route path='/my_apps'><MyApps /></Route>
+      <Route path='/reports'><Reports /></Route>
+      <Route path='/docs'><Docs /></Route>
+      <Route path='/download'><Download /></Route>
+      <Route path='/my_profile'><MyProfile /></Route>
     </Content>
   </Router>
 )
