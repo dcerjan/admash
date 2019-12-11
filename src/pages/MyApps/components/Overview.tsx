@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Pane } from '../../../components/Pane'
+import { Stats } from '../../../components/Stats'
 import { Select } from '../../../components/Select'
 
 import styles from './Overview.module.css'
@@ -23,8 +23,6 @@ export const Overview: React.FC = () => (
         isClearable
       />
     </div>
-    <Pane>
-      #cards
-    </Pane>
+    <Stats />
   </div>
 )
