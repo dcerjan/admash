@@ -20,6 +20,7 @@ export const Overview: React.FC = () => (
       <Select
         options={mockOptions}
         placeholder='Select Data'
+        isClearable
       />
     </div>
     <Pane>
