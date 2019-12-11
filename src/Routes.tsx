@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
 import { Menu, Nav } from './components/Menu';
-import { Content } from './components/Content';
+import { ContentSwitch } from './components/ContentSwitch';
 import { MyApps } from './pages/MyApps'
 import { Reports } from './pages/Reports';
 import { Docs } from './pages/Docs';
@@ -21,12 +21,12 @@ export const Routes: React.FC = () => (
       <Nav to='/my_profile' icon='user' label='My Profile' />
     </Menu>
 
-    <Content>
+    <ContentSwitch>
       <Route path='/my_apps'><MyApps /></Route>
       <Route path='/reports'><Reports /></Route>
       <Route path='/docs'><Docs /></Route>
       <Route path='/download'><Download /></Route>
       <Route path='/my_profile'><MyProfile /></Route>
-    </Content>
+    </ContentSwitch>
   </Router>
 )
