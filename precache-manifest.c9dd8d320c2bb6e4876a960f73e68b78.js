@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "baab732c99ee68dd5df9061cb2a0b123",
+    "revision": "c8c44f49b1c580ced83a9a928de87e49",
     "url": "/admash/index.html"
   },
   {
-    "revision": "9645544b0eb1dd1d9fa0",
+    "revision": "d85cb9059fcc0ce373b6",
     "url": "/admash/static/css/2.78b59fc6.chunk.css"
   },
   {
-    "revision": "e8b456d229b3eecf9f75",
+    "revision": "95720c578d41e6ec43fc",
     "url": "/admash/static/css/main.aa713225.chunk.css"
   },
   {
-    "revision": "9645544b0eb1dd1d9fa0",
-    "url": "/admash/static/js/2.ea9fa292.chunk.js"
+    "revision": "d85cb9059fcc0ce373b6",
+    "url": "/admash/static/js/2.3bea63c4.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/admash/static/js/2.ea9fa292.chunk.js.LICENSE"
+    "url": "/admash/static/js/2.3bea63c4.chunk.js.LICENSE"
   },
   {
-    "revision": "e8b456d229b3eecf9f75",
-    "url": "/admash/static/js/main.b5ffc081.chunk.js"
+    "revision": "95720c578d41e6ec43fc",
+    "url": "/admash/static/js/main.76593934.chunk.js"
   },
   {
     "revision": "1062bad8508ab46c5ad4",
