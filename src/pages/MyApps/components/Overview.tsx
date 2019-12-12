@@ -16,7 +16,7 @@ const mockOptions: SelectOption[] = [
 export const Overview: React.FC = () => (
   <div className={styles.Overview}>
     <div className={styles.Header}>
-      <div className={styles.Title}>OVERVIEW</div>
+      <div className={styles.Title}>overview</div>
       <Select
         options={mockOptions}
         placeholder='Select Data'

@@ -1,24 +1,12 @@
 import React from 'react'
 
-import { Pane } from '../../components/Pane'
 import { Overview } from './components/Overview'
+import { Rundown } from './components/Rundown'
 
-
-const mockData = [
-  { id: 1, project: 'Potato Salad' },
-  { id: 2, project: 'Tomato Soup' },
-  { id: 3, project: 'A Brick' }
-]
 
 export const MyApps = () => (
   <div>
     <Overview />
-    <Pane>
-      <h2>MyApps</h2>
-    </Pane>
-
-    { mockData.map(({ id, project }) =>
-      <Pane key={id}>{project}</Pane>) }
-
+    <Rundown />
   </div>
 )

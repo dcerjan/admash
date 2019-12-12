@@ -1,0 +1,4 @@
+.AppEntry {
+  display: flex;
+  flex-direction: row;
+}
