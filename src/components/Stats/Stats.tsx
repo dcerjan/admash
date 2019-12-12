@@ -1,12 +1,13 @@
 import React from 'react'
 
 import { Pane } from '../Pane'
-import { Stat, StatData } from './Stat'
+import { Stat } from './Stat'
 
+import { StatRecord } from '../../models/StatRecord'
 import styles from './Stats.module.css'
 
 
-const mock: StatData[] = [{
+const mock: StatRecord[] = [{
   id: 1,
   icon: 'bar-chart',
   name: 'revenue',

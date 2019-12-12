@@ -1,21 +1,11 @@
-import clsx from 'clsx'
 import React from 'react'
 
+import { StatRecord } from '../../models/StatRecord'
 import styles from './Stat.module.css'
-
-export type StatData = {
-  id: number,
-  icon: string
-  name: string
-  symbolFix: 'prefix' | 'postfix'
-  symbol: string
-  value: number
-  delta: number
-  sign: -1 | 0 | 1
-}
+import { Badge } from '../Badge'
 
 export type StatPublicProps = {
-  data: StatData,
+  data: StatRecord,
 }
 
 const trimZeroes = (numeric: string) => {
@@ -41,8 +31,8 @@ export const Stat: React.FC<StatPublicProps> = ({ data }) => (
       <span className={styles.Value}>{ trimZeroes(data.value.toFixed(2)) }</span>
       { data.symbolFix === 'postfix' ? <span className={styles.Symbol}>{ data.symbol }</span> : null }
 
-      <div className={clsx({ [styles.Badge]: true, [styles.Red]: data.delta * data.sign < 0, [styles.Green]: data.delta * data.sign > 0 })}>
-        { `${data.delta >= 0 ? '+' : ''}${data.delta.toFixed(0)}%` }
+      <div className={styles.BadgePosition}>
+        <Badge delta={data.delta} sign={data.sign}/>
       </div>
     </div>
   </div>

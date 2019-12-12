@@ -1,0 +1,57 @@
+div.EnvironmentPicker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  background: rgba(242, 242, 242, 1.0);
+  color: #8794a2;
+  margin-left: 16px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 13px;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+  border-radius: 2px;
+
+  cursor: pointer;
+}
+
+div.EnvironmentPicker:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
+}
+
+
+div.EnvironmentPicker > div {
+  box-sizing: border-box;
+  height: 44px;
+  border-radius: 2px;
+  padding: 17px 20px 17px 20px;
+  margin: 0px 2px 0px 2px;
+
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+div.EnvironmentPicker > div.Active {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+div.EnvironmentPicker > div:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
+}
+
+div.EnvironmentPicker > div.Off.Active {
+  color: #c62828;
+  background: white;
+}
+
+div.EnvironmentPicker > div.Sandbox.Active {
+  color: #f2b52c;
+  background: white;
+}
+
+div.EnvironmentPicker > div.Live.Active {
+  color: #59a800;
+  background: white;
+}

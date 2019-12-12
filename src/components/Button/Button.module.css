@@ -23,8 +23,6 @@ div.Button:active {
   box-shadow: 0 4px 4px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
 }
 
-/*
-div.Button > .Inverted {
-
+div.Button.Inverted {
+  background: rgba(242, 242, 242, 1.0);
 }
-*/
