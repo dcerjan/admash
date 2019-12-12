@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/admash/static/css/main.aa713225.chunk.css",
+    "main.js": "/admash/static/js/main.b5ffc081.chunk.js",
+    "main.js.map": "/admash/static/js/main.b5ffc081.chunk.js.map",
+    "runtime-main.js": "/admash/static/js/runtime-main.832e44ac.js",
+    "runtime-main.js.map": "/admash/static/js/runtime-main.832e44ac.js.map",
+    "static/css/2.78b59fc6.chunk.css": "/admash/static/css/2.78b59fc6.chunk.css",
+    "static/js/2.ea9fa292.chunk.js": "/admash/static/js/2.ea9fa292.chunk.js",
+    "static/js/2.ea9fa292.chunk.js.map": "/admash/static/js/2.ea9fa292.chunk.js.map",
+    "index.html": "/admash/index.html",
+    "precache-manifest.e57e2d794e99008e9e978bd05f453797.js": "/admash/precache-manifest.e57e2d794e99008e9e978bd05f453797.js",
+    "service-worker.js": "/admash/service-worker.js",
+    "static/css/2.78b59fc6.chunk.css.map": "/admash/static/css/2.78b59fc6.chunk.css.map",
+    "static/css/main.aa713225.chunk.css.map": "/admash/static/css/main.aa713225.chunk.css.map",
+    "static/js/2.ea9fa292.chunk.js.LICENSE": "/admash/static/js/2.ea9fa292.chunk.js.LICENSE",
+    "static/media/font-awesome.css": "/admash/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.832e44ac.js",
+    "static/css/2.78b59fc6.chunk.css",
+    "static/js/2.ea9fa292.chunk.js",
+    "static/css/main.aa713225.chunk.css",
+    "static/js/main.b5ffc081.chunk.js"
+  ]
+}
